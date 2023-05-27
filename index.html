@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CineRent ~ Tú cine aún más cerca</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.19.0/tabler-icons.min.css" />
+</head>
+
+<body class="text-white">
+  <!-- Banner -->
+
+
+  <div id="bottom-banner" tabindex="-1"
+    class="fixed bottom-0 left-0 z-50 flex justify-between w-full p-4 border-t border-gray-900 bg-gray-50 dark:bg-gray-900 dark:border-gray-600">
+    <div class="flex items-center mx-auto">
+      <p class="flex items-center text-sm font-normal text-gray-500 dark:text-gray-400">
+        <span class="inline-flex p-1 mr-3 bg-gray-200 rounded-full dark:bg-gray-600">
+          <i class="ti ti-shopping-cart-discount"></i>
+          <span class="sr-only">Discount coupon</span>
+        </span>
+        <span>Hazte socio y disfruta de las ventajas que ofrecemos. <a href="./afiliates.html"
+            class="flex items-center ml-0 text-sm font-medium space-x-2 text-blue-600 md:ml-1 md:inline-flex dark:text-blue-500 hover:underline">Ser
+            socio <i class="ti ti-arrow-right"></i></a></span>
+      </p>
+    </div>
+    <div class="flex items-center">
+      <button data-dismiss-target="#bottom-banner" type="button"
+        class="flex-shrink-0 inline-flex justify-center items-center text-gray-400 hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 dark:hover:bg-gray-600 dark:hover:text-white">
+        <svg aria-hidden="true" class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"></path>
+        </svg>
+        <span class="sr-only">Close banner</span>
+      </button>
+    </div>
+  </div>
+  <!-- Finish Banner-->
+  <!-- Main navbar -->
+  <nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="#" class="flex items-center">
+        <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">CineRent</span>
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button"
+        class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul
+          class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="../cinerent/index.html"
+              class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+              aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="../cinerent/aboutus.html"
+              class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Sobre
+              nosotros</a>
+          </li>
+          <li>
+            <a href="../cinerent/catalog.html"
+              class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Cartelera</a>
+          </li>
+          <li>
+            <a href="../cinerent/contact.html"
+              class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contacto</a>
+          </li>
+          <li>
+            <a href="../cinerent/afiliates.html"
+              class="bg-blue-700 text-white rounded px-4 py-2 hover:bg-blue-800 transition duration-300 ease-in-out">¡Hazte socio!</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Finish main navbar-->
+  <!-- Hero Section -->
+  <section class="sm:flex sm:mx-40 mx-1 justify-between my-20">
+    <div class="my-20">
+      <h1 class="md:text-6xl text-2xl font-bold">La mejor experiencia de cine, <span
+          class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-700">desde
+          casa.</span> 🍿</h1>
+      <h2 class="sm:text-xl mt-6 text-gray-600 font-semibold">¡Bienvenido a CineRent, tú nuevo cine personal! Alquila ahora
+        las mejores peliculas para ver desde casa a bajo costo.</h2>
+      <div class="flex mt-6 space-x-8">
+        <a href="./afiliates.html"
+          class="flex items-center space-x-2 font-bold bg-blue-700 px-5 py-4 rounded-lg hover:bg-blue-800 transition duration-300 ease-in-out"><span>
+            Anuncio</span> <i class="ti ti-arrow-right"></i></a>
+        <a href="./aboutus.html"
+          class="flex items-center space-x-2 font-bold border-2 border-blue-700 px-5 py-4 rounded-lg text-blue-700 hover:bg-blue-700 hover:text-white transition duration-300 ease-in-out "><span>Quienes
+            somos</span> <i class="ti ti-users-group"></i></a>
+      </div>
+    </div>
+    <img src="./assets/illustrations/undraw_horror_movie_3988.svg" width="40%" class="hidden sm:block" />
+  </section>
+  <!-- Finish Hero section-->
+  <!-- Information Div -->
+  <section class="bg-gray-950 sm:p-20 px-5 py-20">
+    <div class="sm:flex justify-between items-center sm:mx-20">
+      <div class="flex space-x-8 mb-20 sm:mb-0">
+        <div class="text-8xl">
+          <i class="ti ti-device-tv"></i>
+        </div>
+        <div>
+          <h1 class="font-semibold text-xl text-gray-600">Las</h1>
+          <h2 class="font-bold text-4xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-700">mejores
+          </h2>
+          <h3 class="font-semibold text-xl text-gray-600">películas</h3>
+        </div>
+      </div>
+      <div class="flex space-x-8 mb-20 sm:mb-0">
+        <div class="text-8xl">
+          <i class="ti ti-businessplan"></i>
+        </div>
+        <div>
+          <h1 class="font-semibold text-xl text-gray-600">Asegurado</h1>
+          <h2 class="font-bold text-4xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-700">Bajo
+            Costo</h2>
+          <h3 class="font-semibold text-xl text-gray-600">en nuestros alquileres</h3>
+        </div>
+      </div>
+      <div class="flex space-x-8">
+        <div class="text-8xl">
+          <i class="ti ti-video"></i>
+        </div>
+        <div>
+          <h1 class="font-semibold text-xl text-gray-600">Compra</h1>
+          <h2 class="font-bold text-4xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-700">Tu Peli Favorita
+            </h2>
+          <h3 class="font-semibold text-xl text-gray-600">por muy poco</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Finish information Div -->
+  <!-- About us -->
+  <section class="sm:flex justify-between items-center sm:mx-40 my-20 sm:space-x-20 mx-2">
+    <img src="./assets/illustrations/undraw_people_re_8spw.svg" width="40%" class="hidden sm:block" />
+    <div class="flex space-x-8">
+      <div>
+        <p class="font-bold text-sm uppercase text-gray-600 mb-6">Nosotros</p>
+        <h1 class="font-bold text-4xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-700">¿Quienes
+          somos?</h1>
+        <h2 class="font-semibold text-xl text-gray-300 mt-6 mb-6">Somos una empresa de alquiler de películas fundada por tres alumnos de SMX. Nos apasiona brindarte una amplia selección de películas para que puedas disfrutar en la comodidad de tu hogar. Nuestro objetivo es proporcionarte el mejor entretenimiento audiovisual. ¡Descubre nuestro catálogo y únete a nosotros para disfrutar del mejor cine en casa!</h2>
+        <a href="./aboutus.html"
+          class="flex items-center space-x-2 justify-center font-bold bg-blue-700 px-5 py-4 rounded-lg hover:bg-blue-800 transition duration-300 ease-in-out text-center"><i
+            class="ti ti-store"></i><span> Tienda física </span></a>
+      </div>
+  </section>
+  <!-- Finish about us-->
+  <!-- FAQs -->
+  <section class="bg-gray-950">
+    <div class="sm:mx-40 p-10">
+      <p class="font-bold text-sm uppercase text-gray-600 mb-6">Dudas</p>
+      <h1 class="font-bold text-4xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-700">Preguntas
+        frecuentes</h1>
+      <h2 class="font-semibold text-xl text-gray-300 mt-6 mb-6">Aquí tienes algunas preguntas frecuentes de nuestros
+        usuarios.</h2>
+
+      <div id="accordion-collapse" data-accordion="collapse">
+        <h2 id="accordion-collapse-heading-1">
+          <button type="button"
+            class="bg-gray-900 flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+            data-accordion-target="#accordion-collapse-body-1" aria-expanded="true"
+            aria-controls="accordion-collapse-body-1">
+            <span>¿Cómo funciona el alquiler?</span>
+            <svg data-accordion-icon class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
+          <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+            <p class="mb-2 text-gray-500 dark:text-gray-400">El alquiler es sencillo y online, sólo tienes que ir a
+              nuestra página de precios, escoger la suscripción que más se adapte a tí, escoger las pelis que quieras de nuestra cartelera, o incluso pedir alguna más si no la tenemos. 
+              Nos aseguraremos de poder cumplir con lo que desees. 
+          </div>
+        </div>
+        <h2 id="accordion-collapse-heading-2">
+          <button type="button"
+            class="bg-gray-900 flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+            data-accordion-target="#accordion-collapse-body-2" aria-expanded="false"
+            aria-controls="accordion-collapse-body-2">
+            <span>¿Cómo funciona nuestro servicio?</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-2" class="hidden bg-gray-900" aria-labelledby="accordion-collapse-heading-2">
+          <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+            <p class="mb-2 text-gray-500 dark:text-gray-400">Es muy sencillo, nosotros usamos una plataforma de Streaming llamada Emby para subir las
+              películas. En cuanto efectúes el pago, y nos digas que películas deseas, crearemos un perfil personalizado para ti, y te daremos las claves de acceso.
+              Para acceder al ...
+            </p>
+          </div>
+        </div>
+        <h2 id="accordion-collapse-heading-3">
+          <button type="button"
+            class="bg-gray-900 rounded-b-lg flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+            data-accordion-target="#accordion-collapse-body-3" aria-expanded="false"
+            aria-controls="accordion-collapse-body-3">
+            <span>No estoy muy seguro de si esto es legitimo.</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-3" class="hidden bg-gray-900" aria-labelledby="accordion-collapse-heading-3">
+          <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+            <p class="mb-2 text-gray-500 dark:text-gray-400">Nuestro negocio es <b>totalmente legítimo</b>, todo está
+              legalizado y con un seguimiento, en caso de tener cualquier otra duda, siempre puedes ponerte en contacto
+              con nosotros a nuestro teléfono <span class="text-blue-700">+34 600 654 851</span> o desde nuestro
+              apartado de <a href="./contact.html">contacto</a></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Finish FAQs-->
+  <!--Footer-->
+  
+<footer class="bg-white dark:bg-gray-900">
+  <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+      <div class="md:flex md:justify-between">
+        <div class="mb-6 md:mb-0">
+            <a href="#" class="flex items-center">
+                <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="FlowBite Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">CineRent</span>
+            </a>
+        </div>
+        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Sobre cinerent</h2>
+                <ul class="text-gray-600 dark:text-gray-400 font-medium">
+                    <li class="mb-4">
+                        <a href="#" class="hover:underline">CineRent</a>
+                    </li>
+                    <li>
+                        <a href="https://tailwindcss.com/" class="hover:underline">Equipo</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Siguenos</h2>
+                <ul class="text-gray-600 dark:text-gray-400 font-medium">
+                    <li class="mb-4">
+                        <a href="#" class="hover:underline ">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">Instagram</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                <ul class="text-gray-600 dark:text-gray-400 font-medium">
+                    <li class="mb-4">
+                        <a href="#" class="hover:underline">Politica de privacidad</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">Terminos &amp; Condiciones</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+    <div class="sm:flex sm:items-center sm:justify-between">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#" class="hover:underline">CineRent™</a>. All Rights Reserved.
+        </span>
+        <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                <span class="sr-only">Facebook page</span>
+            </a>
+            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" /></svg>
+                <span class="sr-only">Instagram page</span>
+            </a>
+            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" /></svg>
+                <span class="sr-only">Twitter page</span>
+            </a>
+        </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- End Footer -->
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    darkMode: 'class'
+  }
+</script>
+</html>

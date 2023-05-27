@@ -1,0 +1,13 @@
+html {
+  background: #121826;
+}
+
+body {
+  font-family: 'Instrument Sans', sans-serif;
+}
+
+#background {
+  background-image: url("../assets/media/empresa.jpg");
+  background-size: cover;
+}
+
